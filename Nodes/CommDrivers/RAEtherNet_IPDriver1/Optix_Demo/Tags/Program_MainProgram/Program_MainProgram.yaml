@@ -1,0 +1,4863 @@
+Name: 'Program:MainProgram'
+Type: FolderType
+Children:
+- Name: ANTS_DOS_TANK_LVL_LOW
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MainProgram.ANTS_DOS_TANK_LVL_LOW"
+- Name: CL_TANK_LVL_HIGH
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MainProgram.CL_TANK_LVL_HIGH"
+- Name: CL_TANK_LVL_LOW
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MainProgram.CL_TANK_LVL_LOW"
+- Name: cl_tk_inlet
+  Id: g=07c73c1794a0355aa8d798096fb2da35
+  Type: VLV
+  DataType: VLV
+  Children:
+  - Name: Interlock_Text
+    Type: RAEtherNetIPTag
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [16]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.cl_tk_inlet.Interlock_Text"
+  - Name: Permissive_Text
+    Type: RAEtherNetIPTag
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [16]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.cl_tk_inlet.Permissive_Text"
+  - Name: Tagname
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.cl_tk_inlet.Tagname"
+  - Name: Valve
+    Type: Valve
+    DataType: Valve
+    Children:
+    - Name: All_Interlock_OK
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.All_Interlock_OK"
+    - Name: All_Permissive_OK
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.All_Permissive_OK"
+    - Name: Auto_On_Cmd
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.Auto_On_Cmd"
+    - Name: Auto_On_Cmd_from_Logic
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.Auto_On_Cmd_from_Logic"
+    - Name: Auto_Selected_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.Auto_Selected_Bit"
+    - Name: Autro_Selection_PB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.Autro_Selection_PB"
+    - Name: Close_FB_Check_Time
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.Close_FB_Check_Time"
+    - Name: Close_FB_Fault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.Close_FB_Fault"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.EnableOut"
+    - Name: Feedback_fault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.Feedback_fault"
+    - Name: Has_Interlock_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.Has_Interlock_Bit"
+    - Name: Has_Permissive_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.Has_Permissive_Bit"
+    - Name: Has_Speed_Ref
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.Has_Speed_Ref"
+    - Name: Interlock_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.Interlock_Bit"
+    - Name: Interlock_Bypass_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.Interlock_Bypass_Bit"
+    - Name: Interlock_Enable_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.Interlock_Enable_Bit"
+    - Name: Manual_On_Cmd
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.Manual_On_Cmd"
+    - Name: Manual_Selected_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.Manual_Selected_Bit"
+    - Name: Manual_Selection_PB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.Manual_Selection_PB"
+    - Name: Manual_Start_PB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.Manual_Start_PB"
+    - Name: Manual_Stop_PB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.Manual_Stop_PB"
+    - Name: Motor_Speed_Ref
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.Motor_Speed_Ref"
+    - Name: Open_FB_Check_Time
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.Open_FB_Check_Time"
+    - Name: Open_FB_Fault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.Open_FB_Fault"
+    - Name: Permissive_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.Permissive_Bit"
+    - Name: Permissive_Bypass_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.Permissive_Bypass_Bit"
+    - Name: Permissive_Enable_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.Permissive_Enable_Bit"
+    - Name: Reset_PB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.Reset_PB"
+    - Name: Status_Blink_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.Status_Blink_Bit"
+    - Name: System_First_Scan
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.System_First_Scan"
+    - Name: Valve_Close_FB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.Valve_Close_FB"
+    - Name: Valve_Close_FB_Input
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.Valve_Close_FB_Input"
+    - Name: Valve_Has_Close_FB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.Valve_Has_Close_FB"
+    - Name: Valve_Has_Open_FB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.Valve_Has_Open_FB"
+    - Name: Valve_On_Cmd
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.Valve_On_Cmd"
+    - Name: Valve_Open_FB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.Valve_Open_FB"
+    - Name: Valve_Open_FB_Input
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.Valve_Open_FB_Input"
+    - Name: Valve_Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.cl_tk_inlet.Valve.Valve_Status"
+- Name: feed_orp
+  Id: g=c3924e1f3117c2333559e9f6679d0e69
+  Type: SCP
+  DataType: SCP
+  Children:
+  - Name: scale
+    Type: Scaling
+    DataType: Scaling
+    ReferenceType: HasComponent
+    Children:
+    - Name: alm_chk_time
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_orp.scale.alm_chk_time"
+    - Name: Enable_Alm
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_orp.scale.Enable_Alm"
+    - Name: enable_force_bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_orp.scale.enable_force_bit"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_orp.scale.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_orp.scale.EnableOut"
+    - Name: force_val
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_orp.scale.force_val"
+    - Name: H_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_orp.scale.H_Alm_Bit"
+    - Name: H_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_orp.scale.H_Limit"
+    - Name: HH_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_orp.scale.HH_Alm_Bit"
+    - Name: HH_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_orp.scale.HH_Limit"
+    - Name: Input
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_orp.scale.Input"
+    - Name: L_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_orp.scale.L_Alm_Bit"
+    - Name: LL_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_orp.scale.LL_Alm_Bit"
+    - Name: LL_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_orp.scale.LL_Limit"
+    - Name: Low_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_orp.scale.Low_Limit"
+    - Name: Output
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_orp.scale.Output"
+    - Name: Raw_Max
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_orp.scale.Raw_Max"
+    - Name: Raw_Min
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_orp.scale.Raw_Min"
+    - Name: reset_alm_pb
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_orp.scale.reset_alm_pb"
+    - Name: Scl_Max
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_orp.scale.Scl_Max"
+    - Name: Scl_Min
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_orp.scale.Scl_Min"
+  - Name: tag_name
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.feed_orp.tag_name"
+- Name: HMI_EMG_STOP_FOR_RO
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MainProgram.HMI_EMG_STOP_FOR_RO"
+- Name: HMI_RESET_BIT
+  Id: g=3d7cfe50c60f0a9f53ec3d74a8039eb6
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MainProgram.HMI_RESET_BIT"
+- Name: hpp_suc_pr
+  Id: g=7dc706d71ad74bcf458498c3068828d5
+  Type: SCP
+  DataType: SCP
+  Children:
+  - Name: scale
+    Type: Scaling
+    DataType: Scaling
+    ReferenceType: HasComponent
+    Children:
+    - Name: alm_chk_time
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.hpp_suc_pr.scale.alm_chk_time"
+    - Name: Enable_Alm
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.hpp_suc_pr.scale.Enable_Alm"
+    - Name: enable_force_bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.hpp_suc_pr.scale.enable_force_bit"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.hpp_suc_pr.scale.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.hpp_suc_pr.scale.EnableOut"
+    - Name: force_val
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.hpp_suc_pr.scale.force_val"
+    - Name: H_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.hpp_suc_pr.scale.H_Alm_Bit"
+    - Name: H_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.hpp_suc_pr.scale.H_Limit"
+    - Name: HH_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.hpp_suc_pr.scale.HH_Alm_Bit"
+    - Name: HH_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.hpp_suc_pr.scale.HH_Limit"
+    - Name: Input
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.hpp_suc_pr.scale.Input"
+    - Name: L_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.hpp_suc_pr.scale.L_Alm_Bit"
+    - Name: LL_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.hpp_suc_pr.scale.LL_Alm_Bit"
+    - Name: LL_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.hpp_suc_pr.scale.LL_Limit"
+    - Name: Low_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.hpp_suc_pr.scale.Low_Limit"
+    - Name: Output
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.hpp_suc_pr.scale.Output"
+    - Name: Raw_Max
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.hpp_suc_pr.scale.Raw_Max"
+    - Name: Raw_Min
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.hpp_suc_pr.scale.Raw_Min"
+    - Name: reset_alm_pb
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.hpp_suc_pr.scale.reset_alm_pb"
+    - Name: Scl_Max
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.hpp_suc_pr.scale.Scl_Max"
+    - Name: Scl_Min
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.hpp_suc_pr.scale.Scl_Min"
+  - Name: tag_name
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.hpp_suc_pr.tag_name"
+- Name: oct_level
+  Id: g=35806795575652a27524d31d75e0fbd3
+  Type: SCP
+  DataType: SCP
+  Children:
+  - Name: scale
+    Type: Scaling
+    DataType: Scaling
+    ReferenceType: HasComponent
+    Children:
+    - Name: alm_chk_time
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.oct_level.scale.alm_chk_time"
+    - Name: Enable_Alm
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.oct_level.scale.Enable_Alm"
+    - Name: enable_force_bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.oct_level.scale.enable_force_bit"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.oct_level.scale.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.oct_level.scale.EnableOut"
+    - Name: force_val
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.oct_level.scale.force_val"
+    - Name: H_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.oct_level.scale.H_Alm_Bit"
+    - Name: H_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.oct_level.scale.H_Limit"
+    - Name: HH_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.oct_level.scale.HH_Alm_Bit"
+    - Name: HH_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.oct_level.scale.HH_Limit"
+    - Name: Input
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.oct_level.scale.Input"
+    - Name: L_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.oct_level.scale.L_Alm_Bit"
+    - Name: LL_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.oct_level.scale.LL_Alm_Bit"
+    - Name: LL_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.oct_level.scale.LL_Limit"
+    - Name: Low_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.oct_level.scale.Low_Limit"
+    - Name: Output
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.oct_level.scale.Output"
+    - Name: Raw_Max
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.oct_level.scale.Raw_Max"
+    - Name: Raw_Min
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.oct_level.scale.Raw_Min"
+    - Name: reset_alm_pb
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.oct_level.scale.reset_alm_pb"
+    - Name: Scl_Max
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.oct_level.scale.Scl_Max"
+    - Name: Scl_Min
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.oct_level.scale.Scl_Min"
+  - Name: tag_name
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.oct_level.tag_name"
+- Name: orp_drum
+  Id: g=9ff36bccfa97423acae720dd8bdefd23
+  Type: VLV
+  DataType: VLV
+  Children:
+  - Name: Interlock_Text
+    Type: RAEtherNetIPTag
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [16]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.orp_drum.Interlock_Text"
+  - Name: Permissive_Text
+    Type: RAEtherNetIPTag
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [16]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.orp_drum.Permissive_Text"
+  - Name: Tagname
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.orp_drum.Tagname"
+  - Name: Valve
+    Type: Valve
+    DataType: Valve
+    Children:
+    - Name: All_Interlock_OK
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.All_Interlock_OK"
+    - Name: All_Permissive_OK
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.All_Permissive_OK"
+    - Name: Auto_On_Cmd
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.Auto_On_Cmd"
+    - Name: Auto_On_Cmd_from_Logic
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.Auto_On_Cmd_from_Logic"
+    - Name: Auto_Selected_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.Auto_Selected_Bit"
+    - Name: Autro_Selection_PB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.Autro_Selection_PB"
+    - Name: Close_FB_Check_Time
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.Close_FB_Check_Time"
+    - Name: Close_FB_Fault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.Close_FB_Fault"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.EnableOut"
+    - Name: Feedback_fault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.Feedback_fault"
+    - Name: Has_Interlock_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.Has_Interlock_Bit"
+    - Name: Has_Permissive_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.Has_Permissive_Bit"
+    - Name: Has_Speed_Ref
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.Has_Speed_Ref"
+    - Name: Interlock_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.Interlock_Bit"
+    - Name: Interlock_Bypass_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.Interlock_Bypass_Bit"
+    - Name: Interlock_Enable_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.Interlock_Enable_Bit"
+    - Name: Manual_On_Cmd
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.Manual_On_Cmd"
+    - Name: Manual_Selected_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.Manual_Selected_Bit"
+    - Name: Manual_Selection_PB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.Manual_Selection_PB"
+    - Name: Manual_Start_PB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.Manual_Start_PB"
+    - Name: Manual_Stop_PB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.Manual_Stop_PB"
+    - Name: Motor_Speed_Ref
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.Motor_Speed_Ref"
+    - Name: Open_FB_Check_Time
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.Open_FB_Check_Time"
+    - Name: Open_FB_Fault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.Open_FB_Fault"
+    - Name: Permissive_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.Permissive_Bit"
+    - Name: Permissive_Bypass_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.Permissive_Bypass_Bit"
+    - Name: Permissive_Enable_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.Permissive_Enable_Bit"
+    - Name: Reset_PB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.Reset_PB"
+    - Name: Status_Blink_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.Status_Blink_Bit"
+    - Name: System_First_Scan
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.System_First_Scan"
+    - Name: Valve_Close_FB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.Valve_Close_FB"
+    - Name: Valve_Close_FB_Input
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.Valve_Close_FB_Input"
+    - Name: Valve_Has_Close_FB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.Valve_Has_Close_FB"
+    - Name: Valve_Has_Open_FB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.Valve_Has_Open_FB"
+    - Name: Valve_On_Cmd
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.Valve_On_Cmd"
+    - Name: Valve_Open_FB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.Valve_Open_FB"
+    - Name: Valve_Open_FB_Input
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.Valve_Open_FB_Input"
+    - Name: Valve_Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.orp_drum.Valve.Valve_Status"
+- Name: per_cond_out_of_range
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MainProgram.per_cond_out_of_range"
+- Name: per_drain
+  Id: g=d5127dfc6c005dd43448aa50a6d2864f
+  Type: VLV
+  DataType: VLV
+  Children:
+  - Name: Interlock_Text
+    Type: RAEtherNetIPTag
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [16]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.per_drain.Interlock_Text"
+  - Name: Permissive_Text
+    Type: RAEtherNetIPTag
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [16]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.per_drain.Permissive_Text"
+  - Name: Tagname
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.per_drain.Tagname"
+  - Name: Valve
+    Type: Valve
+    DataType: Valve
+    Children:
+    - Name: All_Interlock_OK
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.All_Interlock_OK"
+    - Name: All_Permissive_OK
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.All_Permissive_OK"
+    - Name: Auto_On_Cmd
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.Auto_On_Cmd"
+    - Name: Auto_On_Cmd_from_Logic
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.Auto_On_Cmd_from_Logic"
+    - Name: Auto_Selected_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.Auto_Selected_Bit"
+    - Name: Autro_Selection_PB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.Autro_Selection_PB"
+    - Name: Close_FB_Check_Time
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.Close_FB_Check_Time"
+    - Name: Close_FB_Fault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.Close_FB_Fault"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.EnableOut"
+    - Name: Feedback_fault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.Feedback_fault"
+    - Name: Has_Interlock_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.Has_Interlock_Bit"
+    - Name: Has_Permissive_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.Has_Permissive_Bit"
+    - Name: Has_Speed_Ref
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.Has_Speed_Ref"
+    - Name: Interlock_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.Interlock_Bit"
+    - Name: Interlock_Bypass_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.Interlock_Bypass_Bit"
+    - Name: Interlock_Enable_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.Interlock_Enable_Bit"
+    - Name: Manual_On_Cmd
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.Manual_On_Cmd"
+    - Name: Manual_Selected_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.Manual_Selected_Bit"
+    - Name: Manual_Selection_PB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.Manual_Selection_PB"
+    - Name: Manual_Start_PB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.Manual_Start_PB"
+    - Name: Manual_Stop_PB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.Manual_Stop_PB"
+    - Name: Motor_Speed_Ref
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.Motor_Speed_Ref"
+    - Name: Open_FB_Check_Time
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.Open_FB_Check_Time"
+    - Name: Open_FB_Fault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.Open_FB_Fault"
+    - Name: Permissive_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.Permissive_Bit"
+    - Name: Permissive_Bypass_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.Permissive_Bypass_Bit"
+    - Name: Permissive_Enable_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.Permissive_Enable_Bit"
+    - Name: Reset_PB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.Reset_PB"
+    - Name: Status_Blink_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.Status_Blink_Bit"
+    - Name: System_First_Scan
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.System_First_Scan"
+    - Name: Valve_Close_FB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.Valve_Close_FB"
+    - Name: Valve_Close_FB_Input
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.Valve_Close_FB_Input"
+    - Name: Valve_Has_Close_FB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.Valve_Has_Close_FB"
+    - Name: Valve_Has_Open_FB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.Valve_Has_Open_FB"
+    - Name: Valve_On_Cmd
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.Valve_On_Cmd"
+    - Name: Valve_Open_FB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.Valve_Open_FB"
+    - Name: Valve_Open_FB_Input
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.Valve_Open_FB_Input"
+    - Name: Valve_Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_drain.Valve.Valve_Status"
+- Name: per_ph_out_of_range
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MainProgram.per_ph_out_of_range"
+- Name: PH_CORRECTION_TANK_LVL_LOW
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MainProgram.PH_CORRECTION_TANK_LVL_LOW"
+- Name: reject_sol
+  Id: g=7cf9344ee2d4d61e7a956f30e671e6d2
+  Type: VLV
+  DataType: VLV
+  Children:
+  - Name: Interlock_Text
+    Type: RAEtherNetIPTag
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [16]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.reject_sol.Interlock_Text"
+  - Name: Permissive_Text
+    Type: RAEtherNetIPTag
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [16]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.reject_sol.Permissive_Text"
+  - Name: Tagname
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.reject_sol.Tagname"
+  - Name: Valve
+    Type: Valve
+    DataType: Valve
+    Children:
+    - Name: All_Interlock_OK
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.All_Interlock_OK"
+    - Name: All_Permissive_OK
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.All_Permissive_OK"
+    - Name: Auto_On_Cmd
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.Auto_On_Cmd"
+    - Name: Auto_On_Cmd_from_Logic
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.Auto_On_Cmd_from_Logic"
+    - Name: Auto_Selected_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.Auto_Selected_Bit"
+    - Name: Autro_Selection_PB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.Autro_Selection_PB"
+    - Name: Close_FB_Check_Time
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.Close_FB_Check_Time"
+    - Name: Close_FB_Fault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.Close_FB_Fault"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.EnableOut"
+    - Name: Feedback_fault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.Feedback_fault"
+    - Name: Has_Interlock_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.Has_Interlock_Bit"
+    - Name: Has_Permissive_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.Has_Permissive_Bit"
+    - Name: Has_Speed_Ref
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.Has_Speed_Ref"
+    - Name: Interlock_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.Interlock_Bit"
+    - Name: Interlock_Bypass_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.Interlock_Bypass_Bit"
+    - Name: Interlock_Enable_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.Interlock_Enable_Bit"
+    - Name: Manual_On_Cmd
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.Manual_On_Cmd"
+    - Name: Manual_Selected_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.Manual_Selected_Bit"
+    - Name: Manual_Selection_PB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.Manual_Selection_PB"
+    - Name: Manual_Start_PB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.Manual_Start_PB"
+    - Name: Manual_Stop_PB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.Manual_Stop_PB"
+    - Name: Motor_Speed_Ref
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.Motor_Speed_Ref"
+    - Name: Open_FB_Check_Time
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.Open_FB_Check_Time"
+    - Name: Open_FB_Fault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.Open_FB_Fault"
+    - Name: Permissive_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.Permissive_Bit"
+    - Name: Permissive_Bypass_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.Permissive_Bypass_Bit"
+    - Name: Permissive_Enable_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.Permissive_Enable_Bit"
+    - Name: Reset_PB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.Reset_PB"
+    - Name: Status_Blink_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.Status_Blink_Bit"
+    - Name: System_First_Scan
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.System_First_Scan"
+    - Name: Valve_Close_FB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.Valve_Close_FB"
+    - Name: Valve_Close_FB_Input
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.Valve_Close_FB_Input"
+    - Name: Valve_Has_Close_FB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.Valve_Has_Close_FB"
+    - Name: Valve_Has_Open_FB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.Valve_Has_Open_FB"
+    - Name: Valve_On_Cmd
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.Valve_On_Cmd"
+    - Name: Valve_Open_FB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.Valve_Open_FB"
+    - Name: Valve_Open_FB_Input
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.Valve_Open_FB_Input"
+    - Name: Valve_Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.reject_sol.Valve.Valve_Status"
+- Name: ro_cip_pump
+  Id: g=e9ccc598bcaa8881cb154d095ff626bb
+  Type: MTR
+  DataType: MTR
+  Children:
+  - Name: Interlock_Text
+    Type: RAEtherNetIPTag
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [16]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.ro_cip_pump.Interlock_Text"
+  - Name: Motor
+    Type: Motor
+    DataType: Motor
+    Children:
+    - Name: All_Interlock_OK
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_cip_pump.Motor.All_Interlock_OK"
+    - Name: All_Permissive_OK
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_cip_pump.Motor.All_Permissive_OK"
+    - Name: Auto_On_Cmd
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_cip_pump.Motor.Auto_On_Cmd"
+    - Name: Auto_On_Cmd_from_Logic
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_cip_pump.Motor.Auto_On_Cmd_from_Logic"
+    - Name: Auto_Selected_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_cip_pump.Motor.Auto_Selected_Bit"
+    - Name: Autro_Selection_PB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_cip_pump.Motor.Autro_Selection_PB"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_cip_pump.Motor.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_cip_pump.Motor.EnableOut"
+    - Name: Has_Interlock_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_cip_pump.Motor.Has_Interlock_Bit"
+    - Name: Has_Permissive_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_cip_pump.Motor.Has_Permissive_Bit"
+    - Name: Has_Speed_Ref
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_cip_pump.Motor.Has_Speed_Ref"
+    - Name: Interlock_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_cip_pump.Motor.Interlock_Bit"
+    - Name: Interlock_Bypass_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_cip_pump.Motor.Interlock_Bypass_Bit"
+    - Name: Interlock_Enable_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_cip_pump.Motor.Interlock_Enable_Bit"
+    - Name: Manual_On_Cmd
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_cip_pump.Motor.Manual_On_Cmd"
+    - Name: Manual_Selected_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_cip_pump.Motor.Manual_Selected_Bit"
+    - Name: Manual_Selection_PB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_cip_pump.Motor.Manual_Selection_PB"
+    - Name: Manual_Start_PB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_cip_pump.Motor.Manual_Start_PB"
+    - Name: Manual_Stop_PB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_cip_pump.Motor.Manual_Stop_PB"
+    - Name: Motor_Has_Run_FB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_cip_pump.Motor.Motor_Has_Run_FB"
+    - Name: Motor_On_Cmd
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_cip_pump.Motor.Motor_On_Cmd"
+    - Name: Motor_Run_FB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_cip_pump.Motor.Motor_Run_FB"
+    - Name: Motor_Run_FB_Input
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_cip_pump.Motor.Motor_Run_FB_Input"
+    - Name: Motor_Speed_Ref
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_cip_pump.Motor.Motor_Speed_Ref"
+    - Name: Motor_Speed_Ref1
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_cip_pump.Motor.Motor_Speed_Ref1"
+    - Name: Motor_Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_cip_pump.Motor.Motor_Status"
+    - Name: Permissive_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_cip_pump.Motor.Permissive_Bit"
+    - Name: Permissive_Bypass_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_cip_pump.Motor.Permissive_Bypass_Bit"
+    - Name: Permissive_Enable_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_cip_pump.Motor.Permissive_Enable_Bit"
+    - Name: Reset_PB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_cip_pump.Motor.Reset_PB"
+    - Name: Run_FB_Check_Time
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_cip_pump.Motor.Run_FB_Check_Time"
+    - Name: Run_FB_Fault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_cip_pump.Motor.Run_FB_Fault"
+    - Name: Status_Blink_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_cip_pump.Motor.Status_Blink_Bit"
+    - Name: System_First_Scan
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_cip_pump.Motor.System_First_Scan"
+  - Name: Permissive_Text
+    Type: RAEtherNetIPTag
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [16]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.ro_cip_pump.Permissive_Text"
+  - Name: Tagname
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.ro_cip_pump.Tagname"
+- Name: ro_feed_pr
+  Id: g=898935503b57ebe23ca2061b39cbe6bc
+  Type: SCP
+  DataType: SCP
+  Children:
+  - Name: scale
+    Type: Scaling
+    DataType: Scaling
+    ReferenceType: HasComponent
+    Children:
+    - Name: alm_chk_time
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_pr.scale.alm_chk_time"
+    - Name: Enable_Alm
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_pr.scale.Enable_Alm"
+    - Name: enable_force_bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_pr.scale.enable_force_bit"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_pr.scale.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_pr.scale.EnableOut"
+    - Name: force_val
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_pr.scale.force_val"
+    - Name: H_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_pr.scale.H_Alm_Bit"
+    - Name: H_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_pr.scale.H_Limit"
+    - Name: HH_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_pr.scale.HH_Alm_Bit"
+    - Name: HH_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_pr.scale.HH_Limit"
+    - Name: Input
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_pr.scale.Input"
+    - Name: L_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_pr.scale.L_Alm_Bit"
+    - Name: LL_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_pr.scale.LL_Alm_Bit"
+    - Name: LL_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_pr.scale.LL_Limit"
+    - Name: Low_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_pr.scale.Low_Limit"
+    - Name: Output
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_pr.scale.Output"
+    - Name: Raw_Max
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_pr.scale.Raw_Max"
+    - Name: Raw_Min
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_pr.scale.Raw_Min"
+    - Name: reset_alm_pb
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_pr.scale.reset_alm_pb"
+    - Name: Scl_Max
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_pr.scale.Scl_Max"
+    - Name: Scl_Min
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_pr.scale.Scl_Min"
+  - Name: tag_name
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.ro_feed_pr.tag_name"
+- Name: ro_feed_temp
+  Id: g=6c6ab7dda006c0c1b03ddb0668b7c1e5
+  Type: SCP
+  DataType: SCP
+  Children:
+  - Name: scale
+    Type: Scaling
+    DataType: Scaling
+    ReferenceType: HasComponent
+    Children:
+    - Name: alm_chk_time
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_temp.scale.alm_chk_time"
+    - Name: Enable_Alm
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_temp.scale.Enable_Alm"
+    - Name: enable_force_bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_temp.scale.enable_force_bit"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_temp.scale.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_temp.scale.EnableOut"
+    - Name: force_val
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_temp.scale.force_val"
+    - Name: H_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_temp.scale.H_Alm_Bit"
+    - Name: H_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_temp.scale.H_Limit"
+    - Name: HH_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_temp.scale.HH_Alm_Bit"
+    - Name: HH_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_temp.scale.HH_Limit"
+    - Name: Input
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_temp.scale.Input"
+    - Name: L_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_temp.scale.L_Alm_Bit"
+    - Name: LL_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_temp.scale.LL_Alm_Bit"
+    - Name: LL_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_temp.scale.LL_Limit"
+    - Name: Low_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_temp.scale.Low_Limit"
+    - Name: Output
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_temp.scale.Output"
+    - Name: Raw_Max
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_temp.scale.Raw_Max"
+    - Name: Raw_Min
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_temp.scale.Raw_Min"
+    - Name: reset_alm_pb
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_temp.scale.reset_alm_pb"
+    - Name: Scl_Max
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_temp.scale.Scl_Max"
+    - Name: Scl_Min
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_temp.scale.Scl_Min"
+  - Name: tag_name
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.ro_feed_temp.tag_name"
+- Name: ro_hpp
+  Id: g=51a6b1853754836d1ced13c2600cd457
+  Type: MTR
+  DataType: MTR
+  Children:
+  - Name: Interlock_Text
+    Type: RAEtherNetIPTag
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [16]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.ro_hpp.Interlock_Text"
+  - Name: Motor
+    Type: Motor
+    DataType: Motor
+    Children:
+    - Name: All_Interlock_OK
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_hpp.Motor.All_Interlock_OK"
+    - Name: All_Permissive_OK
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_hpp.Motor.All_Permissive_OK"
+    - Name: Auto_On_Cmd
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_hpp.Motor.Auto_On_Cmd"
+    - Name: Auto_On_Cmd_from_Logic
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_hpp.Motor.Auto_On_Cmd_from_Logic"
+    - Name: Auto_Selected_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_hpp.Motor.Auto_Selected_Bit"
+    - Name: Autro_Selection_PB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_hpp.Motor.Autro_Selection_PB"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_hpp.Motor.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_hpp.Motor.EnableOut"
+    - Name: Has_Interlock_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_hpp.Motor.Has_Interlock_Bit"
+    - Name: Has_Permissive_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_hpp.Motor.Has_Permissive_Bit"
+    - Name: Has_Speed_Ref
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_hpp.Motor.Has_Speed_Ref"
+    - Name: Interlock_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_hpp.Motor.Interlock_Bit"
+    - Name: Interlock_Bypass_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_hpp.Motor.Interlock_Bypass_Bit"
+    - Name: Interlock_Enable_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_hpp.Motor.Interlock_Enable_Bit"
+    - Name: Manual_On_Cmd
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_hpp.Motor.Manual_On_Cmd"
+    - Name: Manual_Selected_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_hpp.Motor.Manual_Selected_Bit"
+    - Name: Manual_Selection_PB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_hpp.Motor.Manual_Selection_PB"
+    - Name: Manual_Start_PB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_hpp.Motor.Manual_Start_PB"
+    - Name: Manual_Stop_PB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_hpp.Motor.Manual_Stop_PB"
+    - Name: Motor_Has_Run_FB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_hpp.Motor.Motor_Has_Run_FB"
+    - Name: Motor_On_Cmd
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_hpp.Motor.Motor_On_Cmd"
+    - Name: Motor_Run_FB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_hpp.Motor.Motor_Run_FB"
+    - Name: Motor_Run_FB_Input
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_hpp.Motor.Motor_Run_FB_Input"
+    - Name: Motor_Speed_Ref
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_hpp.Motor.Motor_Speed_Ref"
+    - Name: Motor_Speed_Ref1
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_hpp.Motor.Motor_Speed_Ref1"
+    - Name: Motor_Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_hpp.Motor.Motor_Status"
+    - Name: Permissive_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_hpp.Motor.Permissive_Bit"
+    - Name: Permissive_Bypass_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_hpp.Motor.Permissive_Bypass_Bit"
+    - Name: Permissive_Enable_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_hpp.Motor.Permissive_Enable_Bit"
+    - Name: Reset_PB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_hpp.Motor.Reset_PB"
+    - Name: Run_FB_Check_Time
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_hpp.Motor.Run_FB_Check_Time"
+    - Name: Run_FB_Fault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_hpp.Motor.Run_FB_Fault"
+    - Name: Status_Blink_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_hpp.Motor.Status_Blink_Bit"
+    - Name: System_First_Scan
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_hpp.Motor.System_First_Scan"
+  - Name: Permissive_Text
+    Type: RAEtherNetIPTag
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [16]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.ro_hpp.Permissive_Text"
+  - Name: Tagname
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.ro_hpp.Tagname"
+- Name: RO_ON_BIT
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MainProgram.RO_ON_BIT"
+- Name: stream_inlet_vlv
+  Id: g=29873374644df1090b4090278bae79c9
+  Type: VLV
+  DataType: VLV
+  Children:
+  - Name: Interlock_Text
+    Type: RAEtherNetIPTag
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [16]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.stream_inlet_vlv.Interlock_Text"
+  - Name: Permissive_Text
+    Type: RAEtherNetIPTag
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [16]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.stream_inlet_vlv.Permissive_Text"
+  - Name: Tagname
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.stream_inlet_vlv.Tagname"
+  - Name: Valve
+    Type: Valve
+    DataType: Valve
+    Children:
+    - Name: All_Interlock_OK
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.All_Interlock_OK"
+    - Name: All_Permissive_OK
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.All_Permissive_OK"
+    - Name: Auto_On_Cmd
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.Auto_On_Cmd"
+    - Name: Auto_On_Cmd_from_Logic
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.Auto_On_Cmd_from_Logic"
+    - Name: Auto_Selected_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.Auto_Selected_Bit"
+    - Name: Autro_Selection_PB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.Autro_Selection_PB"
+    - Name: Close_FB_Check_Time
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.Close_FB_Check_Time"
+    - Name: Close_FB_Fault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.Close_FB_Fault"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.EnableOut"
+    - Name: Feedback_fault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.Feedback_fault"
+    - Name: Has_Interlock_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.Has_Interlock_Bit"
+    - Name: Has_Permissive_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.Has_Permissive_Bit"
+    - Name: Has_Speed_Ref
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.Has_Speed_Ref"
+    - Name: Interlock_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.Interlock_Bit"
+    - Name: Interlock_Bypass_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.Interlock_Bypass_Bit"
+    - Name: Interlock_Enable_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.Interlock_Enable_Bit"
+    - Name: Manual_On_Cmd
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.Manual_On_Cmd"
+    - Name: Manual_Selected_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.Manual_Selected_Bit"
+    - Name: Manual_Selection_PB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.Manual_Selection_PB"
+    - Name: Manual_Start_PB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.Manual_Start_PB"
+    - Name: Manual_Stop_PB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.Manual_Stop_PB"
+    - Name: Motor_Speed_Ref
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.Motor_Speed_Ref"
+    - Name: Open_FB_Check_Time
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.Open_FB_Check_Time"
+    - Name: Open_FB_Fault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.Open_FB_Fault"
+    - Name: Permissive_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.Permissive_Bit"
+    - Name: Permissive_Bypass_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.Permissive_Bypass_Bit"
+    - Name: Permissive_Enable_Bit
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.Permissive_Enable_Bit"
+    - Name: Reset_PB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.Reset_PB"
+    - Name: Status_Blink_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.Status_Blink_Bit"
+    - Name: System_First_Scan
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.System_First_Scan"
+    - Name: Valve_Close_FB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.Valve_Close_FB"
+    - Name: Valve_Close_FB_Input
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.Valve_Close_FB_Input"
+    - Name: Valve_Has_Close_FB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.Valve_Has_Close_FB"
+    - Name: Valve_Has_Open_FB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.Valve_Has_Open_FB"
+    - Name: Valve_On_Cmd
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.Valve_On_Cmd"
+    - Name: Valve_Open_FB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.Valve_Open_FB"
+    - Name: Valve_Open_FB_Input
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.Valve_Open_FB_Input"
+    - Name: Valve_Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.stream_inlet_vlv.Valve.Valve_Status"
+- Name: feed_cond
+  Id: g=5368766843f8a39882ea2060460ab32a
+  Type: SCP
+  DataType: SCP
+  Children:
+  - Name: scale
+    Type: Scaling
+    DataType: Scaling
+    ReferenceType: HasComponent
+    Children:
+    - Name: alm_chk_time
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_cond.scale.alm_chk_time"
+    - Name: Enable_Alm
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_cond.scale.Enable_Alm"
+    - Name: enable_force_bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_cond.scale.enable_force_bit"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_cond.scale.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_cond.scale.EnableOut"
+    - Name: force_val
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_cond.scale.force_val"
+    - Name: H_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_cond.scale.H_Alm_Bit"
+    - Name: H_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_cond.scale.H_Limit"
+    - Name: HH_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_cond.scale.HH_Alm_Bit"
+    - Name: HH_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_cond.scale.HH_Limit"
+    - Name: Input
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_cond.scale.Input"
+    - Name: L_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_cond.scale.L_Alm_Bit"
+    - Name: LL_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_cond.scale.LL_Alm_Bit"
+    - Name: LL_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_cond.scale.LL_Limit"
+    - Name: Low_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_cond.scale.Low_Limit"
+    - Name: Output
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_cond.scale.Output"
+    - Name: Raw_Max
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_cond.scale.Raw_Max"
+    - Name: Raw_Min
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_cond.scale.Raw_Min"
+    - Name: reset_alm_pb
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_cond.scale.reset_alm_pb"
+    - Name: Scl_Max
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_cond.scale.Scl_Max"
+    - Name: Scl_Min
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_cond.scale.Scl_Min"
+  - Name: tag_name
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.feed_cond.tag_name"
+- Name: feed_ph
+  Id: g=358f591d1407ab319a4e39243053a0a0
+  Type: SCP
+  DataType: SCP
+  Children:
+  - Name: scale
+    Type: Scaling
+    DataType: Scaling
+    ReferenceType: HasComponent
+    Children:
+    - Name: alm_chk_time
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_ph.scale.alm_chk_time"
+    - Name: Enable_Alm
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_ph.scale.Enable_Alm"
+    - Name: enable_force_bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_ph.scale.enable_force_bit"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_ph.scale.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_ph.scale.EnableOut"
+    - Name: force_val
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_ph.scale.force_val"
+    - Name: H_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_ph.scale.H_Alm_Bit"
+    - Name: H_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_ph.scale.H_Limit"
+    - Name: HH_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_ph.scale.HH_Alm_Bit"
+    - Name: HH_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_ph.scale.HH_Limit"
+    - Name: Input
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_ph.scale.Input"
+    - Name: L_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_ph.scale.L_Alm_Bit"
+    - Name: LL_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_ph.scale.LL_Alm_Bit"
+    - Name: LL_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_ph.scale.LL_Limit"
+    - Name: Low_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_ph.scale.Low_Limit"
+    - Name: Output
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_ph.scale.Output"
+    - Name: Raw_Max
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_ph.scale.Raw_Max"
+    - Name: Raw_Min
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_ph.scale.Raw_Min"
+    - Name: reset_alm_pb
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_ph.scale.reset_alm_pb"
+    - Name: Scl_Max
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_ph.scale.Scl_Max"
+    - Name: Scl_Min
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.feed_ph.scale.Scl_Min"
+  - Name: tag_name
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.feed_ph.tag_name"
+- Name: per_cond
+  Id: g=02aa57de6b66e3a126dd395b11b35692
+  Type: SCP
+  DataType: SCP
+  Children:
+  - Name: scale
+    Type: Scaling
+    DataType: Scaling
+    ReferenceType: HasComponent
+    Children:
+    - Name: alm_chk_time
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_cond.scale.alm_chk_time"
+    - Name: Enable_Alm
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_cond.scale.Enable_Alm"
+    - Name: enable_force_bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_cond.scale.enable_force_bit"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_cond.scale.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_cond.scale.EnableOut"
+    - Name: force_val
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_cond.scale.force_val"
+    - Name: H_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_cond.scale.H_Alm_Bit"
+    - Name: H_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_cond.scale.H_Limit"
+    - Name: HH_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_cond.scale.HH_Alm_Bit"
+    - Name: HH_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_cond.scale.HH_Limit"
+    - Name: Input
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_cond.scale.Input"
+    - Name: L_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_cond.scale.L_Alm_Bit"
+    - Name: LL_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_cond.scale.LL_Alm_Bit"
+    - Name: LL_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_cond.scale.LL_Limit"
+    - Name: Low_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_cond.scale.Low_Limit"
+    - Name: Output
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_cond.scale.Output"
+    - Name: Raw_Max
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_cond.scale.Raw_Max"
+    - Name: Raw_Min
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_cond.scale.Raw_Min"
+    - Name: reset_alm_pb
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_cond.scale.reset_alm_pb"
+    - Name: Scl_Max
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_cond.scale.Scl_Max"
+    - Name: Scl_Min
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_cond.scale.Scl_Min"
+  - Name: tag_name
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.per_cond.tag_name"
+- Name: per_flow
+  Id: g=e24151a453a5fcde6f487fe0fb75a61d
+  Type: SCP
+  DataType: SCP
+  Children:
+  - Name: scale
+    Type: Scaling
+    DataType: Scaling
+    ReferenceType: HasComponent
+    Children:
+    - Name: alm_chk_time
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_flow.scale.alm_chk_time"
+    - Name: Enable_Alm
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_flow.scale.Enable_Alm"
+    - Name: enable_force_bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_flow.scale.enable_force_bit"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_flow.scale.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_flow.scale.EnableOut"
+    - Name: force_val
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_flow.scale.force_val"
+    - Name: H_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_flow.scale.H_Alm_Bit"
+    - Name: H_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_flow.scale.H_Limit"
+    - Name: HH_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_flow.scale.HH_Alm_Bit"
+    - Name: HH_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_flow.scale.HH_Limit"
+    - Name: Input
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_flow.scale.Input"
+    - Name: L_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_flow.scale.L_Alm_Bit"
+    - Name: LL_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_flow.scale.LL_Alm_Bit"
+    - Name: LL_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_flow.scale.LL_Limit"
+    - Name: Low_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_flow.scale.Low_Limit"
+    - Name: Output
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_flow.scale.Output"
+    - Name: Raw_Max
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_flow.scale.Raw_Max"
+    - Name: Raw_Min
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_flow.scale.Raw_Min"
+    - Name: reset_alm_pb
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_flow.scale.reset_alm_pb"
+    - Name: Scl_Max
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_flow.scale.Scl_Max"
+    - Name: Scl_Min
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_flow.scale.Scl_Min"
+  - Name: tag_name
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.per_flow.tag_name"
+- Name: per_ph
+  Id: g=de08b416c2e83cc75ed4d2a53619b04d
+  Type: SCP
+  DataType: SCP
+  Children:
+  - Name: scale
+    Type: Scaling
+    DataType: Scaling
+    ReferenceType: HasComponent
+    Children:
+    - Name: alm_chk_time
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_ph.scale.alm_chk_time"
+    - Name: Enable_Alm
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_ph.scale.Enable_Alm"
+    - Name: enable_force_bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_ph.scale.enable_force_bit"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_ph.scale.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_ph.scale.EnableOut"
+    - Name: force_val
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_ph.scale.force_val"
+    - Name: H_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_ph.scale.H_Alm_Bit"
+    - Name: H_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_ph.scale.H_Limit"
+    - Name: HH_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_ph.scale.HH_Alm_Bit"
+    - Name: HH_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_ph.scale.HH_Limit"
+    - Name: Input
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_ph.scale.Input"
+    - Name: L_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_ph.scale.L_Alm_Bit"
+    - Name: LL_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_ph.scale.LL_Alm_Bit"
+    - Name: LL_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_ph.scale.LL_Limit"
+    - Name: Low_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_ph.scale.Low_Limit"
+    - Name: Output
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_ph.scale.Output"
+    - Name: Raw_Max
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_ph.scale.Raw_Max"
+    - Name: Raw_Min
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_ph.scale.Raw_Min"
+    - Name: reset_alm_pb
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_ph.scale.reset_alm_pb"
+    - Name: Scl_Max
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_ph.scale.Scl_Max"
+    - Name: Scl_Min
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.per_ph.scale.Scl_Min"
+  - Name: tag_name
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.per_ph.tag_name"
+- Name: ro_feed_flow
+  Id: g=f7f69304ebd7d2395e2b733d5eb3afa4
+  Type: SCP
+  DataType: SCP
+  Children:
+  - Name: scale
+    Type: Scaling
+    DataType: Scaling
+    ReferenceType: HasComponent
+    Children:
+    - Name: alm_chk_time
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_flow.scale.alm_chk_time"
+    - Name: Enable_Alm
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_flow.scale.Enable_Alm"
+    - Name: enable_force_bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_flow.scale.enable_force_bit"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_flow.scale.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_flow.scale.EnableOut"
+    - Name: force_val
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_flow.scale.force_val"
+    - Name: H_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_flow.scale.H_Alm_Bit"
+    - Name: H_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_flow.scale.H_Limit"
+    - Name: HH_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_flow.scale.HH_Alm_Bit"
+    - Name: HH_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_flow.scale.HH_Limit"
+    - Name: Input
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_flow.scale.Input"
+    - Name: L_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_flow.scale.L_Alm_Bit"
+    - Name: LL_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_flow.scale.LL_Alm_Bit"
+    - Name: LL_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_flow.scale.LL_Limit"
+    - Name: Low_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_flow.scale.Low_Limit"
+    - Name: Output
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_flow.scale.Output"
+    - Name: Raw_Max
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_flow.scale.Raw_Max"
+    - Name: Raw_Min
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_flow.scale.Raw_Min"
+    - Name: reset_alm_pb
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_flow.scale.reset_alm_pb"
+    - Name: Scl_Max
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_flow.scale.Scl_Max"
+    - Name: Scl_Min
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_feed_flow.scale.Scl_Min"
+  - Name: tag_name
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.ro_feed_flow.tag_name"
+- Name: ro_reject_flow
+  Type: SCP
+  DataType: SCP
+  Children:
+  - Name: scale
+    Type: Scaling
+    DataType: Scaling
+    ReferenceType: HasComponent
+    Children:
+    - Name: alm_chk_time
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_flow.scale.alm_chk_time"
+    - Name: Enable_Alm
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_flow.scale.Enable_Alm"
+    - Name: enable_force_bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_flow.scale.enable_force_bit"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_flow.scale.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_flow.scale.EnableOut"
+    - Name: force_val
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_flow.scale.force_val"
+    - Name: H_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_flow.scale.H_Alm_Bit"
+    - Name: H_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_flow.scale.H_Limit"
+    - Name: HH_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_flow.scale.HH_Alm_Bit"
+    - Name: HH_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_flow.scale.HH_Limit"
+    - Name: Input
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_flow.scale.Input"
+    - Name: L_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_flow.scale.L_Alm_Bit"
+    - Name: LL_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_flow.scale.LL_Alm_Bit"
+    - Name: LL_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_flow.scale.LL_Limit"
+    - Name: Low_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_flow.scale.Low_Limit"
+    - Name: Output
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_flow.scale.Output"
+    - Name: Raw_Max
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_flow.scale.Raw_Max"
+    - Name: Raw_Min
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_flow.scale.Raw_Min"
+    - Name: reset_alm_pb
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_flow.scale.reset_alm_pb"
+    - Name: Scl_Max
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_flow.scale.Scl_Max"
+    - Name: Scl_Min
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_flow.scale.Scl_Min"
+  - Name: tag_name
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.ro_reject_flow.tag_name"
+- Name: ro_reject_pr
+  Type: SCP
+  DataType: SCP
+  Children:
+  - Name: scale
+    Type: Scaling
+    DataType: Scaling
+    ReferenceType: HasComponent
+    Children:
+    - Name: alm_chk_time
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_pr.scale.alm_chk_time"
+    - Name: Enable_Alm
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_pr.scale.Enable_Alm"
+    - Name: enable_force_bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_pr.scale.enable_force_bit"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_pr.scale.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_pr.scale.EnableOut"
+    - Name: force_val
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_pr.scale.force_val"
+    - Name: H_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_pr.scale.H_Alm_Bit"
+    - Name: H_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_pr.scale.H_Limit"
+    - Name: HH_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_pr.scale.HH_Alm_Bit"
+    - Name: HH_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_pr.scale.HH_Limit"
+    - Name: Input
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_pr.scale.Input"
+    - Name: L_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_pr.scale.L_Alm_Bit"
+    - Name: LL_Alm_Bit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_pr.scale.LL_Alm_Bit"
+    - Name: LL_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_pr.scale.LL_Limit"
+    - Name: Low_Limit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_pr.scale.Low_Limit"
+    - Name: Output
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_pr.scale.Output"
+    - Name: Raw_Max
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_pr.scale.Raw_Max"
+    - Name: Raw_Min
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_pr.scale.Raw_Min"
+    - Name: reset_alm_pb
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_pr.scale.reset_alm_pb"
+    - Name: Scl_Max
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_pr.scale.Scl_Max"
+    - Name: Scl_Min
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.ro_reject_pr.scale.Scl_Min"
+  - Name: tag_name
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.ro_reject_pr.tag_name"
+- Name: ro_status
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MainProgram.ro_status"

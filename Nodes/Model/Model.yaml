@@ -1,0 +1,7 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: Variable1
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 95.88999938964844
