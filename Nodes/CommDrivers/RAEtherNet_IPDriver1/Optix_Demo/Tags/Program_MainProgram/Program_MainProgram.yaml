@@ -3018,6 +3018,14 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "Program:MainProgram.RO_ON_BIT"
+- Name: ro_sys_ready_to_start_bit
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MainProgram.ro_sys_ready_to_start_bit"
 - Name: stream_inlet_vlv
   Id: g=29873374644df1090b4090278bae79c9
   Type: VLV

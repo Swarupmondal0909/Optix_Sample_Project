@@ -5,3 +5,132 @@ Children:
   Type: BaseDataVariableType
   DataType: Float
   Value: 95.88999938964844
+- Name: Variable2
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+  Children:
+  - Name: KeyValueConverter1
+    Type: ValueMapConverter
+    Children:
+    - Name: Source
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/Optix_Sample_Project/CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/ro_status"
+    - Name: ns=2;Pairs
+      Type: BaseObjectType
+      Children:
+      - Name: Pair
+        Type: ValueMapPair
+        Children:
+        - Name: Key
+          Type: BaseDataVariableType
+          DataType: UInt32
+        - Name: Value
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Stopped"
+      - Name: Pair1
+        Type: ValueMapPair
+        Children:
+        - Name: Key
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 1
+        - Name: Value
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "ORP Flushing"
+      - Name: Pair2
+        Type: ValueMapPair
+        Children:
+        - Name: Key
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 2
+        - Name: Value
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "LP Start Flushing"
+      - Name: Pair3
+        Type: ValueMapPair
+        Children:
+        - Name: Key
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 3
+        - Name: Value
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HP Start Flushing"
+      - Name: Pair4
+        Type: ValueMapPair
+        Children:
+        - Name: Key
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 4
+        - Name: Value
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Service"
+      - Name: Pair5
+        Type: ValueMapPair
+        Children:
+        - Name: Key
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 5
+        - Name: Value
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HP Stop Flushing"
+      - Name: Pair6
+        Type: ValueMapPair
+        Children:
+        - Name: Key
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 6
+        - Name: Value
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "LP Stop Flushing"
+      - Name: Pair7
+        Type: ValueMapPair
+        Children:
+        - Name: Key
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 7
+        - Name: Value
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Quality Out of Range Flushing"
+      - Name: Pair8
+        Type: ValueMapPair
+        Children:
+        - Name: Key
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 8
+        - Name: Value
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Permissive Flushing"
+      - Name: Pair9
+        Type: ValueMapPair
+        Children:
+        - Name: Key
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 9
+        - Name: Value
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Auto Flushing"

@@ -3588,12 +3588,6 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "Report_Test1"
-  - Name: ArrayUpdateMode
-    Type: BaseDataVariableType
-    DataType: TagArrayUpdateMode
-  - Name: Encoding
-    Type: BaseDataVariableType
-    DataType: ns=9;Encoding
 - Name: Format
   Type: RAEtherNetIPTag
   DataType: Int32

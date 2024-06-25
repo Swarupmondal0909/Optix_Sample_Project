@@ -411,6 +411,28 @@ Children:
     Type: PropertyType
     DataType: SamplingModeEnum
     Value: 1
+    Children:
+    - Name: ConditionalConverter1
+      Type: ConditionalConverter
+      Children:
+      - Name: Condition
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/ro_sys_ready_to_start_bit"
+      - Name: TrueValue
+        Type: BaseDataVariableType
+        DataType: SamplingModeEnum
+        ReferenceType: HasParameter
+        Value: 2
+      - Name: FalseValue
+        Type: BaseDataVariableType
+        DataType: SamplingModeEnum
+        ReferenceType: HasParameter
   - Name: Store
     Type: NodePointer
     DataType: NodeId
@@ -423,9 +445,9 @@ Children:
   - Name: VariablesToLog
     Type: BaseObjectType
     Children:
-    - Name: VariableToSample1
+    - Name: Feed Flow
       Type: VariableToLog
-      DataType: Float
+      DataType: BaseDataType
       Children:
       - Name: LastValue
         Type: PropertyType
@@ -439,32 +461,189 @@ Children:
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-      - Name: StringFormatter1
-        Type: StringFormatter
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/ro_feed_flow/scale/Output"
         Children:
-        - Name: Format
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          ReferenceType: HasParameter
-          Value: {"LocaleId":"en-US","Text":"{0:f}"}
-        - Name: ns=2;Source0
-          Type: BaseDataVariableType
-          DataType: BaseDataType
-          ReferenceType: HasSource
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../../../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Controller Tags/Report_Test1"
-            Children:
-            - Name: Mode
-              Type: BaseVariableType
-              DataType: DynamicLinkMode
-              Value: 2
         - Name: Mode
-          Type: PropertyType
+          Type: BaseVariableType
           DataType: DynamicLinkMode
-          ReferenceType: HasComponent
+          Value: 2
+    - Name: Feed Ph
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/feed_ph/scale/Output"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Feed TDS (ppm)
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/feed_cond/scale/Output"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Feed ORP (mV)
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/feed_orp/scale/Output"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: 'Permeate Flow '
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/per_flow/scale/Output"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Permeate Ph
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/feed_ph/scale/Output"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Permeate TDS (ppm)
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/feed_cond/scale/Output"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: 'Permeate Water Tank Level '
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/oct_level/scale/Output"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
           Value: 2
   - Class: Reference
     Target: ns=27;i=21
@@ -473,3 +652,7 @@ Children:
     Type: PropertyType
     DataType: Boolean
     Value: true
+  - Name: SamplingPeriod
+    Type: PropertyType
+    DataType: Duration
+    Value: "0:00:00:1.0000000"

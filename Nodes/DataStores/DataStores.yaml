@@ -246,7 +246,28 @@ Children:
         - Name: LocalTimestamp
           Type: StoreColumn
           DataType: DateTime
-        - Name: VariableToSample1
+        - Name: Feed Flow
+          Type: StoreColumn
+          DataType: Float
+        - Name: Feed Ph
+          Type: StoreColumn
+          DataType: Float
+        - Name: Feed TDS (ppm)
+          Type: StoreColumn
+          DataType: Float
+        - Name: Feed ORP (mV)
+          Type: StoreColumn
+          DataType: Float
+        - Name: 'Permeate Flow '
+          Type: StoreColumn
+          DataType: Float
+        - Name: Permeate Ph
+          Type: StoreColumn
+          DataType: Float
+        - Name: Permeate TDS (ppm)
+          Type: StoreColumn
+          DataType: Float
+        - Name: 'Permeate Water Tank Level '
           Type: StoreColumn
           DataType: Float
   - Class: Reference
