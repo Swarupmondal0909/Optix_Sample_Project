@@ -17,6 +17,38 @@ Children:
     }
    }
   Children:
+  - Name: Data_block_1
+    Type: TagStructure
+    DataType: Structure
+    Value: 
+     {
+      "Type": 22,
+      "Body": {
+       "TypeId": {
+        "IdType": 0,
+        "Id": 0,
+        "Namespace": -1
+       },
+       "Body":    {}
+      }
+     }
+    Children:
+    - Name: PPM SETPOINT
+      Type: S7TiaProfinetTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.Data_block_1.PPM SETPOINT"
+    - Name: PPM SETPOINT_1
+      Type: S7TiaProfinetTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.Data_block_1.PPM SETPOINT_1"
   - Name: Table
     Type: TagStructure
     DataType: Structure
@@ -49,3 +81,19 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         Value: "PLC.Tags.Table.Tag_2"
+    - Name: Tag_4
+      Type: S7TiaProfinetTag
+      DataType: UInt32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Tags.Table.Tag_4"
+    - Name: Tag_5
+      Type: S7TiaProfinetTag
+      DataType: UInt32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Tags.Table.Tag_5"

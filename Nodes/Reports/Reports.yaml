@@ -647,7 +647,7 @@ Children:
       - Name: Width
         Type: BaseDataVariableType
         DataType: Size
-        Value: 37.57083511352539
+        Value: 50.79999923706055
         Children:
         - Name: EngineeringUnits
           Type: EUInformationType
@@ -819,7 +819,7 @@ Children:
       - Name: Width
         Type: BaseDataVariableType
         DataType: Size
-        Value: 37.57083511352539
+        Value: 51.59375
         Children:
         - Name: EngineeringUnits
           Type: EUInformationType

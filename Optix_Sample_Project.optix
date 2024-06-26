@@ -138,10 +138,10 @@ Project:
    Module: FTOptix.Report.Net
    Version: 2.0
  Statistics:
-  TotalNodeCount: 18893
-  Objects: 2488
+  TotalNodeCount: 19098
+  Objects: 2522
   ObjectTypes: 66
-  Variables: 16313
+  Variables: 16484
   VariableTypes: 8
   DataTypes: 8
   Methods: 10

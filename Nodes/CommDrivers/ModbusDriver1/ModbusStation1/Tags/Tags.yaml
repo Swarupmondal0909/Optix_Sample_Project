@@ -3,7 +3,7 @@ Type: FolderType
 Children:
 - Name: ModbusTag1
   Type: ModbusTag
-  DataType: Int32
+  DataType: Int16
   Children:
   - Name: NumRegister
     Type: BaseDataVariableType
@@ -19,3 +19,17 @@ Children:
   - Name: MemoryArea
     Type: BaseDataVariableType
     DataType: ModbusMemoryArea
+- Name: ModbusTag3
+  Type: ModbusTag
+  DataType: Boolean
+  Children:
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 1
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
