@@ -9,6 +9,7 @@ Children:
     Type: BaseObjectType
     Children:
     - Name: AlarmsEventLogger1
+      Id: g=5607b5c1ca2e76f008cee4ec60d1d436
       Type: SQLiteStoreTable
       Children:
       - Class: Reference
@@ -223,6 +224,7 @@ Children:
     Type: BaseObjectType
     Children:
     - Name: Report_datalog
+      Id: g=4bce18029fa62d0d4521f2d02bb7dd26
       Type: SQLiteStoreTable
       Children:
       - Class: Reference
@@ -270,6 +272,12 @@ Children:
         - Name: 'Permeate Water Tank Level '
           Type: StoreColumn
           DataType: Float
+        - Name: Raw Water Tank Level
+          Type: StoreColumn
+          DataType: Float
+        - Name: RO Status
+          Type: StoreColumn
+          DataType: String
   - Class: Reference
     Target: ns=25;i=30
     Direction: Forward

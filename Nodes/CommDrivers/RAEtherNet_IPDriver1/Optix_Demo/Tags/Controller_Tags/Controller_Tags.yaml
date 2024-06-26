@@ -3596,3 +3596,11 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "Format"
+- Name: RO_Status_Text
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "RO_Status_Text"
